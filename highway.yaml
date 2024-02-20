@@ -1,0 +1,181 @@
+# pedestrian/bike: green
+# car: red
+# bus: yellow
+# other: gray
+
+motorway:
+  key: highway
+  value: motorway
+  general: car
+  color: red
+
+trunk:
+  key: highway
+  value: trunk
+  general: car
+  color: red 
+
+primary:
+  key: highway
+  value: primary
+  general: car
+  color: red 
+
+secondary:
+  key: highway
+  value: secondary
+  general: car
+  color: red 
+
+tertiary:
+  key: highway
+  value: tertiary
+  general: car
+  color: red 
+
+unclassified:
+  key: highway
+  value: unclassified
+  general: other
+  color: gray 
+
+residential:
+  key: highway
+  value: residential
+  general: pedbike
+  color: green
+
+###
+
+motorway_link:
+  key: highway
+  value: motorway_link
+  general: car
+  color: red 
+
+trunk_link:
+  key: highway
+  value: trunk_link
+  general: car
+  color: red
+
+primary_link:
+  key: highway
+  value: primary_link
+  general: car
+  color: red
+
+secondary_link:
+  key: highway
+  value: secondary_link
+  general: car
+  color: red
+
+tertiary_link:
+  key: highway
+  value: tertiary_link
+  general: car
+  color: red
+
+###
+
+living_street:
+  key: highway
+  value: living_street
+  general: pedbike
+  color: green
+
+service:
+  key: highway
+  value: service
+  general: other
+  color: gray
+
+pedestrian:
+  key: highway
+  value: pedestrian
+  general: pedbike
+  color: green
+
+track:
+  key: highway
+  value: track
+  general: other
+  color: gray
+
+bus_guideway:
+  key: highway
+  value: bus_guideway
+  general: bus
+  color: yellow
+
+escape:
+  key: highway
+  value: escape
+  general: other
+  color: gray
+
+raceway:
+  key: highway
+  value: raceway
+  general: car
+  color: red
+
+road:
+  key: highway
+  value: road
+  general: car
+  color: red
+
+busway:
+  key: highway
+  value: busway
+  general: bus
+  color: yellow
+
+###
+
+footway:
+  key: highway
+  value: footway
+  general: pedbike
+  color: green
+
+bridleway:
+  key: highway
+  value: bridleway
+  general: pedbike
+  color: green
+
+steps:
+  key: highway
+  value: steps
+  general: pedbike
+  color: green
+
+corridor:
+  key: highway
+  value: corridor
+  general: pedbike
+  color: green
+
+path:
+  key: highway
+  value: path
+  general: pedbike
+  color: green
+
+via_ferrata:
+  key: highway
+  value: via_ferrata
+  general: pedbike
+  color: green
+
+###
+
+cycleway:
+  key: highway
+  value: cycleway
+  general: pedbike
+  color: green
+
